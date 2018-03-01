@@ -120,7 +120,6 @@ h4{
     width: 2px;
     float: right;
     margin: 28px 0 0 0;
-    z-index: -1;
 }
 .flex-container{
     display: flex;
@@ -142,6 +141,7 @@ h4{
     margin-top: 30px;
     position: absolute;
     right: 10px;
+    top: 0;
     width: 270px;
 }
 .contact-button{
@@ -218,4 +218,115 @@ h4{
     float: left;
     height: 200px;
     width: 300px;
+}
+@media screen and (max-width:980px){
+    #profile-image{
+        display:block;
+        float: none;
+        width: 350px;
+        height: 233.333px;
+    }
+    main{
+        width: 760px;
+    }
+    .main-content{
+        width:450px;
+
+    }
+    nav{
+        width: 760px;
+    }
+    .portfolio-item{
+        width: 357px;
+        height: 273.5px;
+    }
+    .portfolio-container{
+        width: 357px;
+        height: 273.5px;    
+    }
+}
+@media screen and (max-width:768px){
+    main{
+        width: 632px;
+    }
+    nav{
+        width: 632px;  
+    }
+    .main-content{
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        width: 630px;
+    }
+    .sidebar{
+        position: relative;
+        right: 0;
+        display: block;
+        width: 630px;
+    }
+    #profile-image{
+        float: left;
+        height: 200px;
+        width: 300px;
+    }
+    h3{
+        text-align: left;
+    }
+    .portfolio-item{
+        width: 251px;
+        height: 192.3px;
+    }
+    .portfolio-container{
+        width: 251px;
+        height: 192.3px;    
+    }
+}
+
+@media screen and (max-width:640px){
+    #profile-image{
+        display:block;
+        float: none;
+    }
+    main{
+        width: 450px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+    }
+    .nav-line{
+        display: inline-flex;
+    }
+    .portfolio-item{
+        width: 300px;
+        height: 200px;
+    }
+    .portfolio-container{
+        width: 300px;
+        height: 200px;
+    }
+    
+    .main-content{
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        width: 400px;
+    }
+    .sidebar{
+        position: relative;
+        right: 0;
+        display: block;
+        width: 400px;
+    }
+    .nav-contents{
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    #nav-name{
+        margin-left: calc(-97vw / 2 + 450px / 2);
+        margin-right: calc(-97vw / 2 + 450px / 2);
+        text-align: center;
+    }
 }
