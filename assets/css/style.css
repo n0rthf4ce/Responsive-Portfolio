@@ -293,7 +293,7 @@ h4{
     nav{
         display: flex;
         flex-direction: column;
-        width: 450px;
+        width: 100%;
     }
     .nav-line{
         display: inline-flex;
@@ -325,8 +325,13 @@ h4{
         justify-content: space-around;
     }
     #nav-name{
-        margin-left: calc(-97vw / 2 + 450px / 2);
-        margin-right: calc(-97vw / 2 + 450px / 2);
         text-align: center;
+    }
+    .head-container{
+        width: 100%;
+        background-color: #4aaaa5;
+        position: relative;
+        padding: 0;
+        overflow: auto;
     }
 }
