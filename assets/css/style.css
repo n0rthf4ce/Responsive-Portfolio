@@ -327,11 +327,4 @@ h4{
     #nav-name{
         text-align: center;
     }
-    .head-container{
-        width: 100%;
-        background-color: #4aaaa5;
-        position: relative;
-        padding: 0;
-        overflow: auto;
-    }
 }
